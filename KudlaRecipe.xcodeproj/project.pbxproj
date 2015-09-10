@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF1829111B96FF6900D3CC8D /* libPushWizard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF1829101B96FF6900D3CC8D /* libPushWizard.a */; };
 		FF2598761B9588DA00A4A286 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2598751B9588DA00A4A286 /* main.m */; };
 		FF2598791B9588DA00A4A286 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2598781B9588DA00A4A286 /* AppDelegate.m */; };
 		FF25987C1B9588DA00A4A286 /* KudlaRecipe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF25987A1B9588DA00A4A286 /* KudlaRecipe.xcdatamodeld */; };
@@ -15,6 +16,16 @@
 		FF2598841B9588DA00A4A286 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF2598831B9588DA00A4A286 /* Images.xcassets */; };
 		FF2598871B9588DA00A4A286 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FF2598851B9588DA00A4A286 /* LaunchScreen.xib */; };
 		FF2598931B9588DA00A4A286 /* KudlaRecipeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2598921B9588DA00A4A286 /* KudlaRecipeTests.m */; };
+		FF25989E1B958E2800A4A286 /* Recipes.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF25989D1B958E2800A4A286 /* Recipes.plist */; };
+		FF2598A81B95A7F800A4A286 /* DosaBg.png in Resources */ = {isa = PBXBuildFile; fileRef = FF2598A71B95A7F800A4A286 /* DosaBg.png */; };
+		FF2598AF1B95B25700A4A286 /* DishesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2598AE1B95B25700A4A286 /* DishesListViewController.m */; };
+		FF2598B21B95BAB500A4A286 /* RecipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF2598B11B95BAB500A4A286 /* RecipeViewController.m */; };
+		FFADDA2F1B96CC2700746571 /* TMLoadingScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = FFADDA2A1B96CC2700746571 /* TMLoadingScreen.m */; };
+		FFADDA301B96CC2700746571 /* TMLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = FFADDA2C1B96CC2700746571 /* TMLoadingView.m */; };
+		FFADDA311B96CC2700746571 /* TMSharedLoadingActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = FFADDA2E1B96CC2700746571 /* TMSharedLoadingActivity.m */; };
+		FFADDA351B96CC3C00746571 /* PopUpUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = FFADDA341B96CC3C00746571 /* PopUpUtility.m */; };
+		FFADDA391B96CD5D00746571 /* AboutAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFADDA381B96CD5D00746571 /* AboutAppViewController.m */; };
+		FFEDA02C1B99725E00875605 /* DosaBgiPad.png in Resources */ = {isa = PBXBuildFile; fileRef = FFEDA02B1B99725E00875605 /* DosaBgiPad.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF18290F1B96FF5F00D3CC8D /* PushWizard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushWizard.h; sourceTree = "<group>"; };
+		FF1829101B96FF6900D3CC8D /* libPushWizard.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPushWizard.a; sourceTree = "<group>"; };
 		FF2598701B9588DA00A4A286 /* KudlaRecipe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KudlaRecipe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF2598741B9588DA00A4A286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF2598751B9588DA00A4A286 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +55,24 @@
 		FF25988C1B9588DA00A4A286 /* KudlaRecipeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KudlaRecipeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF2598911B9588DA00A4A286 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF2598921B9588DA00A4A286 /* KudlaRecipeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KudlaRecipeTests.m; sourceTree = "<group>"; };
+		FF25989D1B958E2800A4A286 /* Recipes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Recipes.plist; sourceTree = "<group>"; };
+		FF2598A71B95A7F800A4A286 /* DosaBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DosaBg.png; sourceTree = "<group>"; };
+		FF2598AD1B95B25700A4A286 /* DishesListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DishesListViewController.h; sourceTree = "<group>"; };
+		FF2598AE1B95B25700A4A286 /* DishesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DishesListViewController.m; sourceTree = "<group>"; };
+		FF2598B01B95BAB500A4A286 /* RecipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecipeViewController.h; sourceTree = "<group>"; };
+		FF2598B11B95BAB500A4A286 /* RecipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecipeViewController.m; sourceTree = "<group>"; };
+		FFADDA291B96CC2700746571 /* TMLoadingScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMLoadingScreen.h; sourceTree = "<group>"; };
+		FFADDA2A1B96CC2700746571 /* TMLoadingScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMLoadingScreen.m; sourceTree = "<group>"; };
+		FFADDA2B1B96CC2700746571 /* TMLoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMLoadingView.h; sourceTree = "<group>"; };
+		FFADDA2C1B96CC2700746571 /* TMLoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMLoadingView.m; sourceTree = "<group>"; };
+		FFADDA2D1B96CC2700746571 /* TMSharedLoadingActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMSharedLoadingActivity.h; sourceTree = "<group>"; };
+		FFADDA2E1B96CC2700746571 /* TMSharedLoadingActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TMSharedLoadingActivity.m; sourceTree = "<group>"; };
+		FFADDA331B96CC3C00746571 /* PopUpUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopUpUtility.h; sourceTree = "<group>"; };
+		FFADDA341B96CC3C00746571 /* PopUpUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopUpUtility.m; sourceTree = "<group>"; };
+		FFADDA371B96CD5D00746571 /* AboutAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutAppViewController.h; sourceTree = "<group>"; };
+		FFADDA381B96CD5D00746571 /* AboutAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutAppViewController.m; sourceTree = "<group>"; };
+		FFEDA02B1B99725E00875605 /* DosaBgiPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DosaBgiPad.png; sourceTree = "<group>"; };
+		FFEDA0301B99731100875605 /* TMConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TMConstants.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF1829111B96FF6900D3CC8D /* libPushWizard.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +115,8 @@
 		FF2598721B9588DA00A4A286 /* KudlaRecipe */ = {
 			isa = PBXGroup;
 			children = (
+				FF2598AC1B95B25700A4A286 /* Classes */,
+				FF25989C1B958E1000A4A286 /* Resources */,
 				FF2598771B9588DA00A4A286 /* AppDelegate.h */,
 				FF2598781B9588DA00A4A286 /* AppDelegate.m */,
 				FF25987D1B9588DA00A4A286 /* ViewController.h */,
@@ -99,6 +133,8 @@
 		FF2598731B9588DA00A4A286 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FF1829101B96FF6900D3CC8D /* libPushWizard.a */,
+				FF18290F1B96FF5F00D3CC8D /* PushWizard.h */,
 				FF2598741B9588DA00A4A286 /* Info.plist */,
 				FF2598751B9588DA00A4A286 /* main.m */,
 			);
@@ -120,6 +156,62 @@
 				FF2598911B9588DA00A4A286 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF25989C1B958E1000A4A286 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FFEDA02B1B99725E00875605 /* DosaBgiPad.png */,
+				FF2598A71B95A7F800A4A286 /* DosaBg.png */,
+				FF25989D1B958E2800A4A286 /* Recipes.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FF2598AC1B95B25700A4A286 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FFEDA02F1B9972F900875605 /* Constants */,
+				FFADDA321B96CC3C00746571 /* Pop Up */,
+				FFADDA281B96CC2700746571 /* LoadingView */,
+				FF2598AD1B95B25700A4A286 /* DishesListViewController.h */,
+				FF2598AE1B95B25700A4A286 /* DishesListViewController.m */,
+				FF2598B01B95BAB500A4A286 /* RecipeViewController.h */,
+				FF2598B11B95BAB500A4A286 /* RecipeViewController.m */,
+				FFADDA371B96CD5D00746571 /* AboutAppViewController.h */,
+				FFADDA381B96CD5D00746571 /* AboutAppViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		FFADDA281B96CC2700746571 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				FFADDA291B96CC2700746571 /* TMLoadingScreen.h */,
+				FFADDA2A1B96CC2700746571 /* TMLoadingScreen.m */,
+				FFADDA2B1B96CC2700746571 /* TMLoadingView.h */,
+				FFADDA2C1B96CC2700746571 /* TMLoadingView.m */,
+				FFADDA2D1B96CC2700746571 /* TMSharedLoadingActivity.h */,
+				FFADDA2E1B96CC2700746571 /* TMSharedLoadingActivity.m */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		FFADDA321B96CC3C00746571 /* Pop Up */ = {
+			isa = PBXGroup;
+			children = (
+				FFADDA331B96CC3C00746571 /* PopUpUtility.h */,
+				FFADDA341B96CC3C00746571 /* PopUpUtility.m */,
+			);
+			path = "Pop Up";
+			sourceTree = "<group>";
+		};
+		FFEDA02F1B9972F900875605 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				FFEDA0301B99731100875605 /* TMConstants.h */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,7 +295,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF2598821B9588DA00A4A286 /* Main.storyboard in Resources */,
+				FFEDA02C1B99725E00875605 /* DosaBgiPad.png in Resources */,
 				FF2598871B9588DA00A4A286 /* LaunchScreen.xib in Resources */,
+				FF2598A81B95A7F800A4A286 /* DosaBg.png in Resources */,
+				FF25989E1B958E2800A4A286 /* Recipes.plist in Resources */,
 				FF2598841B9588DA00A4A286 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,9 +318,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF2598791B9588DA00A4A286 /* AppDelegate.m in Sources */,
+				FFADDA391B96CD5D00746571 /* AboutAppViewController.m in Sources */,
 				FF2598761B9588DA00A4A286 /* main.m in Sources */,
+				FF2598B21B95BAB500A4A286 /* RecipeViewController.m in Sources */,
+				FF2598AF1B95B25700A4A286 /* DishesListViewController.m in Sources */,
+				FFADDA301B96CC2700746571 /* TMLoadingView.m in Sources */,
+				FFADDA351B96CC3C00746571 /* PopUpUtility.m in Sources */,
 				FF25987F1B9588DA00A4A286 /* ViewController.m in Sources */,
+				FFADDA311B96CC2700746571 /* TMSharedLoadingActivity.m in Sources */,
 				FF25987C1B9588DA00A4A286 /* KudlaRecipe.xcdatamodeld in Sources */,
+				FFADDA2F1B96CC2700746571 /* TMLoadingScreen.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,9 +453,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Endeavour Software Technologies Private Limited";
 				INFOPLIST_FILE = KudlaRecipe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KudlaRecipe",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5f7fddf6-dc2f-4cd0-80cc-4dc6267efafc";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -361,9 +470,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Endeavour Software Technologies Private Limited";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Endeavour Software Technologies Private Limited";
 				INFOPLIST_FILE = KudlaRecipe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/KudlaRecipe",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5f7fddf6-dc2f-4cd0-80cc-4dc6267efafc";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -420,6 +537,7 @@
 				FF2598981B9588DA00A4A286 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF2598991B9588DA00A4A286 /* Build configuration list for PBXNativeTarget "KudlaRecipeTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +546,7 @@
 				FF25989B1B9588DA00A4A286 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

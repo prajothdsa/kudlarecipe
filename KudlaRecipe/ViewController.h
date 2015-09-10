@@ -7,9 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MessageUI/MessageUI.h>
+#import "TMSharedLoadingActivity.h"
+#import "PopUpUtility.h"
+#import "TMConstants.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate,MFMailComposeViewControllerDelegate>
 
+@property (weak, nonatomic) IBOutlet UITableView *tblCategories;
+@property (nonatomic, retain) NSMutableDictionary *dictOfPlistValues;
+@property (weak, nonatomic) IBOutlet UIButton *requestRecipeClicked;
+- (IBAction)btnRequestRecipeClicked:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *btnAboutAppClicked;
+- (IBAction)btnAboutTheAppClicked:(id)sender;
 
 @end
 
